@@ -31,7 +31,7 @@ def display_text(text):
 def display_python_text(text):
     """Displays 'python' and then the value of <text> """
     text = text.replace("_", " ")
-    return "C {}".format(text)
+    return "Python {}".format(text)
 
 
 if __name__ == '__main__':
