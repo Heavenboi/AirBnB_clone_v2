@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""script that run a flask app and return Hello HBNB"""
+"""
+script that run a flask app and return Hello HBNB
+listening to port 0.0.0.0:5000
+"""
 from flask import Flask
 
 app = Flask(__name__)
